@@ -1,4 +1,4 @@
-//GENERACIÓN DE OBJETOS Y ARRAY
+//Objetos y Array
 
 class Producto {
 	constructor(nombre, color, precio) {
@@ -18,7 +18,7 @@ const producto5 = new Producto("Jordan Air Span", "Blue", 59000);
 const arrayProductos = [producto1, producto2, producto3, producto4, producto5];
 console.log(arrayProductos);
 
-// MENU Y FUNCIONALIDAD
+// Alerts y Prompts
 
 alert("Hola! Te damos la bienvenida :)");
 alert("Por favor, indica el número del producto que te interesa para obtener los detalles del mismo :)");
